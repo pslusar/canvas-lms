@@ -1,0 +1,87 @@
+/*If you change 
+
+/* Replace the gray background with something that matches your colors.  You can use .pngs with alpha transparency. If you don't use an image, you need to remove ours*/
+/* #header { 
+  background: url("noisy_blue.png?v1") repeat-x scroll center transparent;
+  /* OR background-image: none; 
+  background-color: #EBF5FA;
+}
+*/
+
+/*replace the canvas logo with your logo*/
+#header-logo, #header.no-user #header-logo {
+  background: url("/images/logo_small.png?v1") no-repeat scroll 0 0 transparent;
+  bottom: 0px;
+  height: 48px;
+  left: 15px;
+  width: 170px;
+}
+
+
+/*if you replace the left canvas logo, move a smaller one to the right side of the header--I made the image gray first*/
+#header-logo-secondary {
+  background: url("/images/eduqella_logo_small.png?v1") no-repeat scroll 0 0 transparent;
+  bottom: 8px;
+  height: 24;
+  position: absolute;
+  right: 26px;
+  width: 95px;
+  display: block;
+}
+
+/*if your logo is bigger, you can make room like this*/
+#menu { margin-left; 200px; }
+
+/*change the identity bar (the area that says "Hilary Scharton Inbox Settings Logout Help)*/
+#identity {
+  background-image: none;
+
+	/* background-color: #FF6B0F; */
+   background-color: #A1C42E;
+}
+
+/*change the color of the identity text*/
+#identity a { color: black; }
+/*change the color of the circle around the number of unread inbox messages*/
+#identity .inbox a .unread-messages-count { background-color: #F2F0DD; }
+#identity #identity-help-container a { color: black; }
+
+/*change the color of the menu items (courses & groups etc.). If the text looks fuzzy, remove the text shadow.*/
+/* .menu-item .menu-item-title, .menu-item .menu-item-no-drop {
+  color: #FAFBF4;
+  text-shadow: none;
+}
+*/
+
+/*login box*/
+
+/* #modal-box { background: url("Slide1.jpg?v1") no-repeat !important }*/
+
+/* Welcome Aboard logo mod */
+body.modal #modal-box h2 {
+	background: transparent url("/images/eduqella_logo_small.png?v1") right 6px no-repeat;
+}
+
+/*this will remove the extra canvas logo*/
+body.modal #modal-box.login-box h1 { 
+  /* background: none; */
+	background: url("/images/logo_small.png?v1") no-repeat scroll 0 0 transparent;
+  height: 235px;
+}
+
+/*resize the login box to fit my image and change the color of 'stay signed in'*/
+body.modal #modal-box.login-box { 
+  height: 435px;
+  width: 610px;
+  color: #2784A0;
+}
+
+/*change the color of the login button*/
+body.modal #modal-box .button, body.modal #login-box .button {
+  background-color: #A1C42E !important;
+  background-image: none;
+  border-color: #668F78;
+}
+
+/*change the color of 'don't know your password'*/
+body.modal #modal-box.login-box a { color: #2784A0 !important; }
