@@ -1,4 +1,6 @@
-source :rubygems
+# source :rubygems
+
+source 'https://rubygems.org'
 
 ONE_NINE = RUBY_VERSION >= "1.9."
 

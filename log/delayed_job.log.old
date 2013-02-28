@@ -1,0 +1,175 @@
+Job master died with error: #<LoadError: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so>
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+/var/rails/canvas/config/../config/preinitializer.rb:17
+/var/rails/canvas/config/boot.rb:29:in `load'
+/var/rails/canvas/config/boot.rb:29:in `preinitialize'
+/var/rails/canvas/config/boot.rb:11:in `boot!'
+/var/rails/canvas/config/boot.rb:122
+/var/rails/canvas/config/environment.rb:4:in `require'
+/var/rails/canvas/config/environment.rb:4
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+/var/rails/canvas/script/delayed_job:5
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so (LoadError)
+	from /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+	from /var/rails/canvas/config/../config/preinitializer.rb:17
+	from /var/rails/canvas/config/boot.rb:29:in `load'
+	from /var/rails/canvas/config/boot.rb:29:in `preinitialize'
+	from /var/rails/canvas/config/boot.rb:11:in `boot!'
+	from /var/rails/canvas/config/boot.rb:122
+	from /var/rails/canvas/config/environment.rb:4:in `require'
+	from /var/rails/canvas/config/environment.rb:4
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+	from /var/rails/canvas/script/delayed_job:5
+Job master died with error: #<LoadError: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so>
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+/var/rails/canvas/config/../config/preinitializer.rb:17
+/var/rails/canvas/config/boot.rb:29:in `load'
+/var/rails/canvas/config/boot.rb:29:in `preinitialize'
+/var/rails/canvas/config/boot.rb:11:in `boot!'
+/var/rails/canvas/config/boot.rb:122
+/var/rails/canvas/config/environment.rb:4:in `require'
+/var/rails/canvas/config/environment.rb:4
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+/var/rails/canvas/script/delayed_job:5
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so (LoadError)
+	from /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+	from /var/rails/canvas/config/../config/preinitializer.rb:17
+	from /var/rails/canvas/config/boot.rb:29:in `load'
+	from /var/rails/canvas/config/boot.rb:29:in `preinitialize'
+	from /var/rails/canvas/config/boot.rb:11:in `boot!'
+	from /var/rails/canvas/config/boot.rb:122
+	from /var/rails/canvas/config/environment.rb:4:in `require'
+	from /var/rails/canvas/config/environment.rb:4
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+	from /var/rails/canvas/script/delayed_job:5
+Job master died with error: #<LoadError: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so>
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+/var/rails/canvas/config/../config/preinitializer.rb:17
+/var/rails/canvas/config/boot.rb:29:in `load'
+/var/rails/canvas/config/boot.rb:29:in `preinitialize'
+/var/rails/canvas/config/boot.rb:11:in `boot!'
+/var/rails/canvas/config/boot.rb:122
+/var/rails/canvas/config/environment.rb:4:in `require'
+/var/rails/canvas/config/environment.rb:4
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+/var/rails/canvas/script/delayed_job:5
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so (LoadError)
+	from /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+	from /var/rails/canvas/config/../config/preinitializer.rb:17
+	from /var/rails/canvas/config/boot.rb:29:in `load'
+	from /var/rails/canvas/config/boot.rb:29:in `preinitialize'
+	from /var/rails/canvas/config/boot.rb:11:in `boot!'
+	from /var/rails/canvas/config/boot.rb:122
+	from /var/rails/canvas/config/environment.rb:4:in `require'
+	from /var/rails/canvas/config/environment.rb:4
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+	from /var/rails/canvas/script/delayed_job:5
+Job master died with error: #<LoadError: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so>
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+/var/rails/canvas/config/../config/preinitializer.rb:17
+/var/rails/canvas/config/boot.rb:29:in `load'
+/var/rails/canvas/config/boot.rb:29:in `preinitialize'
+/var/rails/canvas/config/boot.rb:11:in `boot!'
+/var/rails/canvas/config/boot.rb:122
+/var/rails/canvas/config/environment.rb:4:in `require'
+/var/rails/canvas/config/environment.rb:4
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+/var/rails/canvas/script/delayed_job:5
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so (LoadError)
+	from /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+	from /var/rails/canvas/config/../config/preinitializer.rb:17
+	from /var/rails/canvas/config/boot.rb:29:in `load'
+	from /var/rails/canvas/config/boot.rb:29:in `preinitialize'
+	from /var/rails/canvas/config/boot.rb:11:in `boot!'
+	from /var/rails/canvas/config/boot.rb:122
+	from /var/rails/canvas/config/environment.rb:4:in `require'
+	from /var/rails/canvas/config/environment.rb:4
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+	from /var/rails/canvas/script/delayed_job:5
+Job master died with error: #<LoadError: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so>
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+/usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+/var/rails/canvas/config/../config/preinitializer.rb:17
+/var/rails/canvas/config/boot.rb:29:in `load'
+/var/rails/canvas/config/boot.rb:29:in `preinitialize'
+/var/rails/canvas/config/boot.rb:11:in `boot!'
+/var/rails/canvas/config/boot.rb:122
+/var/rails/canvas/config/environment.rb:4:in `require'
+/var/rails/canvas/config/environment.rb:4
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+/var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+/var/rails/canvas/script/delayed_job:5
+/usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so: libcrypto.so.0.9.8: cannot open shared object file: No such file or directory - /usr/local/lib/ruby/1.8/x86_64-linux/digest/sha1.so (LoadError)
+	from /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler/definition.rb:1
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:144:in `definition'
+	from /usr/local/rvm/gems/ruby-1.9.3-p385/gems/bundler-1.2.4/lib/bundler.rb:112:in `setup'
+	from /var/rails/canvas/config/../config/preinitializer.rb:17
+	from /var/rails/canvas/config/boot.rb:29:in `load'
+	from /var/rails/canvas/config/boot.rb:29:in `preinitialize'
+	from /var/rails/canvas/config/boot.rb:11:in `boot!'
+	from /var/rails/canvas/config/boot.rb:122
+	from /var/rails/canvas/config/environment.rb:4:in `require'
+	from /var/rails/canvas/config/environment.rb:4
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `require'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:111:in `load_rails'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:83:in `start'
+	from /var/rails/canvas/vendor/plugins/delayed_job/lib/delayed/pool.rb:50:in `run'
+	from /var/rails/canvas/script/delayed_job:5
